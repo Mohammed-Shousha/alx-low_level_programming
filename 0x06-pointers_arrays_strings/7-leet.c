@@ -20,6 +20,8 @@ char *leet(char *str)
 			if(str[i] == letters[j])
 				str[i] = numbers[j];
 		}
+
+		i++;
 	}
 
 	return (str);
