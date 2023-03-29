@@ -15,15 +15,13 @@ char *rot13(char *str)
 
 	while (str[i] != '\0')
 	{
-		while (plain[j] != '\0')
+		for (j = 0; plain[j] != '\0'; j++)
 		{
 			if (str[i] == plain[j])
 			{
-				str[i] = chipher[j];
+				str[i] = cipher[j];
 				break;
 			}
-
-			j++;
 		}
 
 		i++;
