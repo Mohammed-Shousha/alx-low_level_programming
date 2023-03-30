@@ -59,7 +59,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 			rem = 1;
 		else
 			rem = 0;
-		if (digits >= (size_r - 1))
+		if (digits >= size_r)
 			return (0);
 		r[digits] = (tot_tmp % 10) + '0';
 		digits++;
