@@ -19,5 +19,5 @@ void print_diagsums(int *a, int size)
 		antiSum += a[(size * (i + 1)) - (i + 1)];
 	}
 
-	printf("%d, %d\n, mainSum, antiSum);
+	printf("%d, %d\n", mainSum, antiSum);
 }
