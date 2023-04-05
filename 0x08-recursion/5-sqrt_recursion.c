@@ -1,6 +1,6 @@
 #include "main.h"
 
-int _sqrt_recusion_helper(int n, int i);
+int _sqrt_recursion_helper(int n, int i);
 
 /**
  * _sqrt_recursion - returns the natural square root of a number
@@ -32,5 +32,5 @@ int _sqrt_recursion_helper(int n, int i)
 	if (i * i == n)
 		return (i);
 
-	return (_sqrt_recusion_helper(n, i + 1));
+	return (_sqrt_recursion_helper(n, i + 1));
 }
