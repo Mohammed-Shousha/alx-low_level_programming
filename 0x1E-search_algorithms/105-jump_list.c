@@ -7,7 +7,8 @@
  * @size: The number of nodes in the list.
  * @value: The value to search for.
  *
- * Return: a pointer to the first node where the value is located, NULL otherwise.
+ * Return: a pointer to the first node where the value is located,
+ * NULL otherwise.
  */
 listint_t *jump_list(listint_t *list, size_t size, int value)
 {
